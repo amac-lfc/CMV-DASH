@@ -1,13 +1,8 @@
-language: python
-python:
-  - "3.6"      # current default Python on Travis CI
-  - "3.7"
-  - "3.8"
-install:
-  - pip install -r requirements.txt
 deploy:
   provider: heroku
   api_key:
-    secure: GXHpDmbKh7Qk5fb17O/ebS3kyQ+TwOOQoxhN/aT4PFe+TA13akQxDgdX4D9AtZLZI85gs9Qr8HBTwbpJ6/zQc6LgbFr22k/54RoGxxpbD2ngwY+AuBcdcDcL64MPm0Ws9oyysvGSmcVlTZPFaRpUVB16As8fRr0iVP06eWUwWjr9475NetsVpbhIHOkjqnDfTwpwmJ3sbtnSY9+qjP159W5wWsOSMKe30iFRR3/hlUhAn7mwHxDo/5BbawISXn54cVofzaCdDyiLT/qcEBbwSsLBLyl6lFMJWV9mSQpmD0JVeJNiVBc+0MOFP3p+4/Pe9W+yEJzF+lcEVWGLJgyoYRapgeAdfkh3ez+FK4MdRkwQzF5veAyR+/4Xgjiln7NXZFCT1ZyatiPW8WIhm3PK3ieFivryC8ZzywaHNqFTLwxKaqBxvTz3bsjBn0Ft3/+AcrG2EjPRRUjszEFQt+4W5yyQ0A8e23u3T+3yVxY9UcnTjOJkb9R8+aJ0evQELaKyzHrvn16GBUHNldOnx6kdy1C9lV3bFEjfNrTILsLU9zcWtN6Aj5B8vOV1uztPs15kOZYHe5oHpuVeERrDy/cWtoyJW2Aip23aAhOhs7yBsaqAm85fHJinOpZ0JAnty/kmrmKGL9W2qX6ATi5OPnmqhm8YSxkQnmhpz3yTdYnogII=
-
+    secure: 1DlM9BkylzY/JxkGCyVo4Q3g4KghfeWt/bw8KDd+nZmDyqC0GIrDwxC/XQuGAvgib6e92CBBy+wD19GXtrHB6YeijBBLwbTtqEuQ0M8Ed1F2zGV+Vh1hRA9dg78TyJXbUPWiEaUlPeYZe/6NyarcWokCixAcg5VkhWr1dhPs6u5WH9x6NRkj5ArsPx38/PqNO8oL4Guy2AUPrJdtXmALH0kRBLaI7VlU9s34MVGEIUOWNWgycFiZIv16uw9pa8gwUdhL2Z2XCdL5++Eqpr530xHLU9d0YFO3CTdm97xi/DLlNRuwhEqTk7K2p34sofnbiHhniCoG/ExAgm1fY6YO+8QbOPHj34olGSxny3HqrN3ERHd6cghq8etn6/seLQWzStmPUAftmZ7i5nsgaHauGqkrOlPYncSP2b9Pe8ZobRMEM/gG6wtvesrZ8dVrLneMGNaG0uEwuaL4W+NPgjITug2LmPD6tR0aezpj05iOyhy1fCsZ7NOUQ1C3wq6fmm8FsYzcbWPG+7zLBK5hGbEVqC81H5oGgDXcm1dMpU6iSfy7G+UfRlTHxRcCVLRtgCD7TY/oTFxIQEs7O6G92mKKsJKLwy5B2WWZUnOvOdbx6oTqzv4g7iOqCDolRnTOSl9PlKzrwAG9LlGdo/O4ZHUOw+vjt8FCKHIHb8YjYV0juC8=
   app: test-app-covid
+  on:
+    repo: amac-lfc/CMV-DASH
+  skip_cleanup: 'true'
