@@ -7,4 +7,4 @@ deploy:
   on:
     repo: amac-lfc/CMV-DASH
   skip_cleanup: 'true'
-script: python3 app.py
+script: pytest app.py
