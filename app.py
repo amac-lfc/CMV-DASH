@@ -44,26 +44,7 @@ means = np.array([[7.28019324e+01, 1.36948275e+01],
  [3.29322905e+00, 4.06426683e+00],
  [1.43386243e+00, 3.04885967e+00]])
 
-example = '''I believe you are missing the point of gender. \
-    The notion of gender is a social construct. It is not something you can change. \
-    It is a construct that can and should be changed. In my opinion, gender is not a \
-    construct you can actually change. It is not something that people are forced to "change". \
-    It is a set of behaviors that people can and should mimic. The issue with this is that you\
-    are saying that being forced to be a woman is like being forced to be a man. I am not \
-    talking about "being forced to be a man..." but "being forced to be a woman is like being \
-    forced to be a man." I would like to think you are aware of this, but I am not. I am a man,\
-    and I am talking about being forced to be a man in a non-threatening manner. That does \
-    not make it any less "manly." It just makes it a little more "manly." This is a universal\
-    experience, and one that many trans people are forced to face. I am not saying you should \
-    not be forced to be a woman, but I am saying you should be forced to be a man. I am not \
-    talking here about "being forced to be a man is wrong" or "being forced to be a man is \
-    wrong." I am not saying it is okay to be forced to be a man in public, but I am saying \
-    it is ok to be forced to be a woman in private. Just think about how uncomfortable it \
-    is for you to be forced to be a man in public, and how uncomfortable it will be for you \
-    to be forced to be a woman in the same manner. I am willing to bet you that many trans \
-    people will not be forced to be a woman, but many will. If you are truly bothered by this,\
-    you need to consider what the purpose of the feminine would be in relation to the \
-    masculine'''
+example = '''From a statistical perspective, sure. But would you agree that a rollercoaster is a more fearful experience than driving? The odds of dying in a rollercoaster are exponentially less. However, the feeling of moving very fast, being high off the ground, and being unable to stop and leave when you want to, are all likely to trigger discomfort since, on most other occasions, moving fast, being up high, or being trapped mean we are more vulnerable. These same factors also apply to flying. In this sense, people's responses are rational in the sense that there is a reasonable past source behind certain feelings or bodily responses'''
 
 model = load('GradientBoosting.joblib') 
 word_list_input = "word_list.csv"
